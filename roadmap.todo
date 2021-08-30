@@ -18,11 +18,11 @@ Criação de Menu:
     ✔ Criar componente components/Menu @started(21-08-30 10:33) @done(21-08-30 10:33) @lasted(12s)
     O conteúdo de menu.component.html dele deve ser o do elemento nav contida em https://github.com/sergiomoura/contatos-html-template/blob/main/home.html
     ✔ Adicione esse componente ao app.component.html @started(21-08-30 10:33) @done(21-08-30 10:33) @lasted(17s)
-    ☐ Dê estilo a ele baseado no css https://github.com/sergiomoura/contatos-html-template/blob/main/css/home.css
+    ✔ Dê estilo a ele baseado no css https://github.com/sergiomoura/contatos-html-template/blob/main/css/home.css @started(21-08-30 10:41) @done(21-08-30 10:41) @lasted(58s)
     - *Observe que o link para sair do sistema não está aparecendo corretamente (exit_to_app)*
-    ☐ Importe as fontes do material icon fonts para o seu projeto adicionando a linha de código no index.html
+    ✔ Importe as fontes do material icon fonts para o seu projeto adicionando a linha de código no index.html @started(21-08-30 10:42) @done(21-08-30 10:42) @lasted(39s)
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    ☐ Verifique se o menu aparece corretamente.
+    ✔ Verifique se o menu aparece corretamente. @started(21-08-30 10:43) @done(21-08-30 10:43) @lasted(8s)
 
 Criação de Lista de Contatos:
     ☐ Criar o componente components/ListaDeContatos
@@ -32,10 +32,10 @@ Criação de Lista de Contatos:
     ☐ Verifique se a lista de contatos aparece corretamente.
 
 Criação de Componente contato:
-    ☐ Criar componente components/Contato
-    ☐ Utilizar como componente com componente uma das sections contidas na main do lista-de-contatos.component.html
-    ☐ Utilizar o css apropriado para esse componente.
-    ☐ Reescrever o html do componente lista de contatos para exibir uma ou duas dezenas de app-contato
+    ✔ Criar componente components/Contato @started(21-08-30 10:56) @done(21-08-30 10:56) @lasted(18s)
+    ✔ Utilizar como componente uma das sections contidas na main do lista-de-contatos.component.html @started(21-08-30 10:56) @done(21-08-30 10:56) @lasted(20s)
+    ✔ Utilizar o css apropriado para esse componente. @started(21-08-30 10:56) @done(21-08-30 10:56) @lasted(28s)
+    ✔ Reescrever o html do componente lista de contatos para exibir uma ou duas dezenas de app-contato @started(21-08-30 10:56) @done(21-08-30 10:56) @lasted(33s)
 
 Fazendo que os contatos sejam mais dinâmicos:
     ☐ Crie uma pasta model dentro da pastas src/app
