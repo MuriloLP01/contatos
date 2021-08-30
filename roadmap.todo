@@ -1,14 +1,14 @@
 Aparência geral:
-    ☐ Crie uma pasta "img" dentro da pasta /src/assets/
+    ✔ Crie uma pasta "img" dentro da pasta /src/assets/ @started(21-08-30 09:38) @done(21-08-30 09:39) @lasted(1m)
     A pasta assets é uma pasta de arquivos estáticos. Muito apropriada para armazenamento de imagens
     utilizadas no layout das páginas
-    ☐ Salve na pasta /src/assets/img a imagem https://github.com/sergiomoura/contatos-html-template/blob/main/img/bg.jpg
-    ☐ Aplicar geral.css para folha de estilos que será usada no site inteiro. 
-    - Visite:
-    - https://sergiomoura.github.io/contatos-html-template/home.html
-    - https://github.com/sergiomoura/contatos-html-template
-    ☐ Limpe app.component.html
-    ☐ Visite localhost:4200 e verifique se o background já está visível
+    ✔ Salve na pasta /src/assets/img a imagem https://github.com/sergiomoura/contatos-html-template/blob/main/img/bg.jpg @started(21-08-30 09:39) @done(21-08-30 09:39) @lasted(16s)
+    ✔ Aplicar geral.css para folha de estilos que será usada no site inteiro. @started(21-08-30 09:50) @done(21-08-30 09:50) @lasted(24s)
+    . Visite
+    . https://sergiomoura.github.io/contatos-html-template/home.html
+    . https://github.com/sergiomoura/contatos-html-template
+    ✔ Limpe app.component.html @started(21-08-30 09:53) @done(21-08-30 09:53) @lasted(56s)
+    ✔ Visite localhost:4200 e verifique se o background já está visível @started(21-08-30 10:19) @done(21-08-30 10:19) @lasted(22s)
     ☐ Incorpore os css externos no index.html
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
