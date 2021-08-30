@@ -38,15 +38,15 @@ Criação de Componente contato:
     ✔ Reescrever o html do componente lista de contatos para exibir uma ou duas dezenas de app-contato @started(21-08-30 10:56) @done(21-08-30 10:56) @lasted(33s)
 
 Fazendo que os contatos sejam mais dinâmicos:
-    ☐ Crie uma pasta model dentro da pastas src/app
-    ☐ Crie nessa pasta models um arquivo Contato.ts
+    ✔ Crie uma pasta model dentro da pastas src/app @started(21-08-30 14:15) @done(21-08-30 14:15) @lasted(45s)
+    ✔ Crie nessa pasta models um arquivo Contato.ts @started(21-08-30 14:15) @done(21-08-30 14:15) @lasted(47s)
     Exporte de dentro desse arquivo uma interface que defina 3 campos
     .nome (do tipo string),
     .email (do tipo string) 
     .tels (um array de strings)
-    ☐ Declare na classe ListaDeContatosComponent um atributo contatos do tipo array de contatos
-    ☐ Atribua a esse atributo um array com pelo menos 10 contatos
-    ☐ Faça com que esses contatos sejam exibidos.
+    ✔ Declare na classe ListaDeContatosComponent um atributo contatos do tipo array de contatos @started(21-08-30 14:15) @done(21-08-30 14:15) @lasted(51s)
+    ✔ Atribua a esse atributo um array com pelo menos 10 contatos @started(21-08-30 14:15) @done(21-08-30 14:15) @lasted(54s)
+    ✔ Faça com que esses contatos sejam exibidos. @started(21-08-30 14:15) @done(21-08-30 14:15) @lasted(56s)
 
 Fazendo com que contatos sejam levantados a partir de um servico:
     ☐ Crie um serviço services/Contato
