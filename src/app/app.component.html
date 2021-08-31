@@ -1,1 +1,6 @@
-<app-menu></app-menu> <app-lista-de-contatos></app-lista-de-contatos>
+<app-menu (onAddContatoClick)="abrirModal()"></app-menu>
+<app-lista-de-contatos></app-lista-de-contatos>
+<app-create-contato
+  *ngIf="mostrandoModal"
+  (onCloseModalClick)="fecharModal()"
+></app-create-contato>

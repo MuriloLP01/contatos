@@ -49,27 +49,27 @@ Fazendo que os contatos sejam mais dinâmicos:
     ✔ Faça com que esses contatos sejam exibidos. @started(21-08-30 14:15) @done(21-08-30 14:15) @lasted(56s)
 
 Fazendo com que contatos sejam levantados a partir de um servico:
-    ☐ Crie um serviço services/Contato
-    ☐ Declare um atributo privado contatos contendo o array de contatos que, agora, não deve mais estar na component ListaDeContatos
-    ☐ Crie nesse serviço a função getContatos() que retorna a lista de contatos.
-    ☐ Importe o serviço ContatoService na Componente ListaDeContatos
-    ☐ Crie um atributo privado contatoService da classe ContatoService e o intancie.
-    ☐ No constructor do ListaDeContatosComponent levante os contatos usando contatoService.getContato e atribua-os ao atributo contatos.
+    ✔ Crie um serviço services/Contato @started(21-08-31 10:13) @done(21-08-31 10:13) @lasted(9s)
+    ✔ Declare um atributo privado contatos contendo o array de contatos que, agora, não deve mais estar na component ListaDeContatos @started(21-08-31 10:13) @done(21-08-31 10:13) @lasted(12s)
+    ✔ Crie nesse serviço a função getContatos() que retorna a lista de contatos. @started(21-08-31 10:13) @done(21-08-31 10:13) @lasted(16s)
+    ✔ Importe o serviço ContatoService na Componente ListaDeContatos @started(21-08-31 10:13) @done(21-08-31 10:13) @lasted(25s)
+    ✔ Crie um atributo privado contatoService da classe ContatoService e o intancie. @started(21-08-31 10:13) @done(21-08-31 10:13) @lasted(32s)
+    ✔ No constructor do ListaDeContatosComponent levante os contatos usando contatoService.getContato e atribua-os ao atributo contatos. @started(21-08-31 10:13) @done(21-08-31 10:13) @lasted(39s)
     
 Criação e Exibição do componente que adiciona/cria um novo contato:
-    ☐ Crie o componente components/CreateContato
-    ☐ Estruture o template dele com base no https://github.com/sergiomoura/contatos-html-template/blob/main/home.html
-    ☐ Estilize ele com base nos seletores #modal do arquivo https://github.com/sergiomoura/contatos-html-template/blob/main/css/home.css
+    ✔ Crie o componente components/CreateContato @started(21-08-31 11:02) @done(21-08-31 11:02) @lasted(53s)
+    ✔ Estruture o template dele com base no https://github.com/sergiomoura/contatos-html-template/blob/main/home.html @started(21-08-31 11:02) @done(21-08-31 11:02) @lasted(58s)
+    ✔ Estilize ele com base nos seletores #modal do arquivo https://github.com/sergiomoura/contatos-html-template/blob/main/css/home.css @started(21-08-31 11:03) @done(21-08-31 11:03) @lasted(2s)
     Fazendo com que o componente comece "escondido":
-        ☐ Crie uma propriedade mostrandoCreateContato no componente app.component.ts e atribua a ela false
-        ☐ Marque app-create-contato para que ele só seja exibido se o mostrandoCreateContato seja true (Dica: *ngIf)
+        ✔ Crie uma propriedade mostrandoCreateContato no componente app.component.ts e atribua a ela false @done(21-08-31 11:03)
+        ✔ Marque app-create-contato para que ele só seja exibido se o mostrandoCreateContato seja true (Dica: *ngIf) @started(21-08-31 11:04) @done(21-08-31 11:04) @lasted(6s)
     Fazendo com que ele seja exibido quando o menu seja clicado:
-        ☐ No MenuComponent.ts crie uma função mostrarModalClick que seja executada toda vez que o item "Adicionar Contato" seja clicado.
-        ☐ Crie um emissor de evento e faça com que ele emita um evento na função mostrarModalClick
-        ☐ No app.component.html associe o evento emitido à execução de uma função mostrarModal.
+        ✔ No MenuComponent.ts crie uma função mostrarModalClick que seja executada toda vez que o item "Adicionar Contato" seja clicado. @started(21-08-31 15:45) @done(21-08-31 15:45) @lasted(9s)
+        ✔ Crie um emissor de evento e faça com que ele emita um evento na função mostrarModalClick @started(21-08-31 15:45) @done(21-08-31 15:45) @lasted(15s)
+        ✔ No app.component.html associe o evento emitido à execução de uma função mostrarModal. @started(21-08-31 15:45) @done(21-08-31 15:45) @lasted(19s)
            Essa função, definida no AppComponent, deve alterar o valor do atributo mostrandoCreateContato para true;
     Fazendo com que ele seja escondido quando o cancelar seja clicado:
-        ☐ ... escreva aqui os passos ... análogos ao do item anterior.
+        ✔ s... escreva aqui os passos ... análogos ao do item anterior. @started(21-08-31 15:45) @done(21-08-31 15:45) @lasted(24s)
 
 
 
