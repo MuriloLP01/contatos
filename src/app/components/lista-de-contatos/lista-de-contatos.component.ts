@@ -9,7 +9,7 @@ import { ContatoService } from 'src/app/services/contato.service';
 })
 export class ListaDeContatosComponent implements OnInit {
 
-  contatos: Contato[];
+  public contatos: Contato[];
   private cs:ContatoService = new ContatoService();
 
   constructor() { 
