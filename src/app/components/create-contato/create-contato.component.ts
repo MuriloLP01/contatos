@@ -1,5 +1,6 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { Contato } from 'src/app/models/contato';
+import { ContatoService } from 'src/app/services/contato.service';
 
 @Component({
   selector: 'app-create-contato',
@@ -8,6 +9,8 @@ import { Contato } from 'src/app/models/contato';
 })
 export class CreateContatoComponent implements OnInit {
   @Output() onCloseModalClick:EventEmitter<null> = new EventEmitter()
+
+  cs: ContatoService = new ContatoService
 
   novoContato:Contato = {
     nome:"",
@@ -26,12 +29,24 @@ export class CreateContatoComponent implements OnInit {
   }
 
   addTelefone():void{
-  console.log("Clicou")
   this.novoContato.telefones.push("")
   }
 
-  removeTelefone():void{
-    this.novoContato.telefones.pop()
+  removeTelefone(pos:number):void{
+    this.novoContato.telefones.splice(pos,1)
+  }
+
+  salvar(){
+    this.cs.addContato(this.novoContato)
+    this.sair()
+    this.onCloseModalClick.emit()
+
+    //Manter a tela e limpar os campos
+    // this.novoContato ={
+    //  nome:"",
+    //  email:"",
+    //  telefones: [""]
+    //}
   }
 
   track(index:number, value:string){
