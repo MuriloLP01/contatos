@@ -28,8 +28,10 @@
           [(ngModel)]="novoContato.telefones[i]"
           id="email"
         />
-        <a *ngIf="i == 0"><i class="material-icons">add_circle</i></a>
-        <a *ngIf="i > 0" class="remove"
+        <a (click)="addTelefone()" *ngIf="i == 0"
+          ><i class="material-icons">add_circle</i></a
+        >
+        <a (click)="removeTelefone()" *ngIf="i > 0" class="remove"
           ><i class="material-icons">remove_circle</i></a
         >
       </div>
