@@ -8,7 +8,7 @@ import { Contato } from 'src/app/models/contato';
 export class ContatoService {
 
   private baseDeContatos: Contato[];
-  private chave:string = "CONTATOS";
+  private readonly chave:string = "CONTATOS";
 
   constructor() {
 

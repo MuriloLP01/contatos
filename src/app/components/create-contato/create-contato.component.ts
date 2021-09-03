@@ -40,14 +40,14 @@ export class CreateContatoComponent implements OnInit {
     this.cs.addContato(this.novoContato)
     this.sair()
     this.onCloseModalClick.emit()
-
+  }
     //Manter a tela e limpar os campos
     // this.novoContato ={
     //  nome:"",
     //  email:"",
     //  telefones: [""]
     //}
-  }
+
 
   track(index:number, value:string){
     return index;
