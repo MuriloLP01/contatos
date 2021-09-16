@@ -1,5 +1,5 @@
 <app-menu (onAddContatoClick)="abrirModal()"></app-menu>
-<app-lista-de-contatos></app-lista-de-contatos>
+<router-outlet></router-outlet>
 <app-create-contato
   *ngIf="mostrandoModal"
   (onCloseModalClick)="fecharModal()"

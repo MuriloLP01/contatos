@@ -13,7 +13,15 @@ export class ListaDeContatosComponent implements OnInit {
   private cs:ContatoService = new ContatoService();
 
   constructor() { 
-    this.contatos = this.cs.getContatos()
+    this.contatos = this.cs.getContatos();
+    ContatoService.onContatosMudaram.subscribe(
+      (contatos) => {
+        console.log("Os contatos foram alterados");
+        console.log(contatos);
+        this.contatos = contatos
+      }
+    )
+
   }
 
   ngOnInit(): void {
